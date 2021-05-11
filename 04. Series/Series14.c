@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &n);
         for(i=1; i<=n; i++) {
                 fact = fact * i;
-                sum = sum + (float)1/fact;
+                sum = sum + (float) 1/fact;
         }
         printf("Sum = %.3lf", sum);
         return 0;
