@@ -3,8 +3,7 @@ int seriesSum(int a,int b,int d)
 {
     if(a<=b)
         return a + seriesSum(a+d,b,d);
-    else
-        return 0;
+    return 0;
 }
 
 int main()

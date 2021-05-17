@@ -3,8 +3,7 @@ int getFact(int num)
 {
     if(num==1)
         return 1;
-    else
-        return num * getFact(num-1);
+    return num * getFact(num-1);
 }
 
 int main()
